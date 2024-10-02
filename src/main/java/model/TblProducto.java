@@ -21,7 +21,8 @@ public class TblProducto implements Serializable {
 
 	@Temporal(TemporalType.DATE)
 	private Date fechaven;
-
+	
+	@Id
 	@Column(name="id_producto")
 	private int idProducto;
 
